@@ -5,7 +5,7 @@ Feel free to use our packages in your own projects, but it would be nice if you 
 
 ## Packages
 
-- `typescript-config` - A TypeScript configuration for projects, with a few tweaks to make it more useful. Find it [here](https://github.com/bracketed/packages/typescript-config).
+- `typescript-config` - A TypeScript configuration for projects, with a few tweaks to make it more useful. Find it [here](https://github.com/Bracketed/Bracketed-Packages/tree/main/pkgs/typescript-config).
 
 ## Contribution
 

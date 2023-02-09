@@ -1,0 +1,63 @@
+{
+	"name": "@bracketed/typescript-config",
+	"version": "3.3.4",
+	"description": "Just some extensions for tsconfig.",
+	"author": "@bracketed",
+	"main": "tsconfig.json",
+	"typedocMain": "tests/index.ts",
+	"exports": {
+		".": {
+			"import": "./tsconfig.json",
+			"require": "./tsconfig.json"
+		},
+		"./without-decorators": {
+			"import": "./without-decorators.json",
+			"require": "./without-decorators.json"
+		},
+		"./extra-strict": {
+			"import": "./extra-strict.json",
+			"require": "./extra-strict.json"
+		},
+		"./extra-strict-without-decorators": {
+			"import": "./extra-strict-without-decorators.json",
+			"require": "./extra-strict-without-decorators.json"
+		}
+	},
+	"sideEffects": false,
+	"homepage": "https://github.com/bracketed/tree/main/packages/tree/main/typescript-config",
+	"scripts": {
+		"test": "jest",
+		"build": "yarn lint && tsc -b tests"
+	},
+	"dependencies": {
+		"tslib": "^2.3.1",
+		"typescript": "^4.6.3"
+	},
+	"files": [
+		"tsconfig.json",
+		"extra-strict*.json",
+		"*decorators*.json"
+	],
+	"engines": {
+		"node": ">=v16.0.0",
+		"npm": ">=8.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bracketed/packages.git",
+		"directory": "packages/ts-config"
+	},
+	"bugs": {
+		"url": "https://github.com/bracketed/packages/issues"
+	},
+	"keywords": [
+		"bracketed",
+		"typescript",
+		"ts",
+		"yarn"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"gitHead": "bf5ac56e547bfdbfac38e020882004e0f136546e"
+}

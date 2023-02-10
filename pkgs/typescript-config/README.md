@@ -22,7 +22,7 @@ It also has some actual updates too, im making sure I keep this up to date since
     - [Npm](#NpmInstall)
 - [Usage](#Usage)
 - [Contribution](#Contribution)
-- [ChangeLog](#ChangeLog)
+- [ChangeLog](#versionlog)
 
 <h2 id="Installation">Installation</h2>
 
@@ -60,78 +60,45 @@ Acceptable values:
 Feel free to contribute to this project, join our [discord](https://bracketed.co.uk/discord) and help us with future development of Project Bracketed.
 Please also notify us of errors within our projects as we may not be aware of them at the time.
 
-<h1 id="ChangeLog">ChangeLog & Help</h1>
+<h1 id="versionlog">ChangeLog & Versions</h1>
 
-<h3 id="v1.0.0">Version 1.0.0</h1>
+<details>
+<summary style="font-weight: bold">Version 1.0</summary>
+<li>Initial release</li>
+<li>Package published to npm</li>
+<li>Available by using npm install --save-dev @bracketed/typescript-config</li>
+</details>
 
-- Initial release
-- Package published to `npm`
-- Available by using `npm install --save-dev @bracketed/typescript-config`
+<details>
+<summary style="font-weight: bold">Version 1.1</summary>
+<li>Fixed Minor issues (x1)</li>
+<li>Package now published to yarn</li>
+<li>Available by using yarn add @bracketed/typescript-config --dev</li>
+</details>
 
-<h3 id="v1.0.1">Version 1.0.1</h1>
+<details>
+<summary style="font-weight: bold">Version 1.2</summary>
+<li>Fixed Minor issues (x2)</li>
+<li>package.json file updated with fixed details</li>
+<li>Removed unnecessary dependencies</li>
+<li>Added base config for beginners</li>
+<li>Fixed image bugs on the readme</li>
+<li>Published new images</li>
+<li>Applied new logos and added links at the bottom</li>
+<li>Added a summary to the readme</li>
+<li>Centered some text</li>
+</details>
 
-- Fixed Minor issues
-- Package now published to yarn
-- Available by using `yarn add @bracketed/typescript-config --dev`
+<details>
+<summary style="font-weight: bold">Version 1.3</summary>
+<li>Major reformatting</li>
+<li>Major changes to readme</li>
+<li>Readme revamped completely</li>
+<li>Links fixed</li>
+<li>Changelog clutter removed</li>
+<li>Changelog renamed to versionlog in scripts to attempt fixes of hyperlinks not working</li>
+</details>
 
-<h3 id="v1.0.2">Version 1.0.2</h1>
-
-- Fixed Minor issues
-- `package.json` has been updated
-- Removed unnecessary dependencies
-- Added `base-config.json`
-- Revamped `README.md` (x1)
-
-<h3 id="v1.0.3">Version 1.0.3</h1>
-
-- Revamped `README.md` (x2)
-
-<h3 id="v1.0.4">Version 1.0.4</h1>
-
-- Fixed image bug in `README.md` (x1)
-
-<h3 id="v1.0.5">Version 1.0.5</h1>
-
-- Fixed image bug in `README.md` (x2)
-- Published some logo assets to the repository root.
-
-<h3 id="v1.0.6">Version 1.0.6</h1>
-
-- Christ this is annoying
-- Fixed image bug in `README.md` (x3)
-
-<h3 id="v1.0.7">Version 1.0.7</h1>
-
-- I hope this is the last one of these darn fixes
-- Fixed image bug in `README.md` (x4)
-- Resized logo in `README.md` (x1)
-- Added end of file logo to `README.md`
-
-<h3 id="v1.0.8">Version 1.0.8</h1>
-
-- Centered Text below logo in `README.md`
-- Resized Logo in `README.md` (x2)
-
-<h3 id="v1.0.9">Version 1.0.9</h1>
-
-- Readme Revamp - `10/02/2023`
-
-<h3 id="v1.1.0">Version 1.1.0</h1>
-
-- Readme Touch Up after revamp - `10/02/2023` (x1)
-
-<h3 id="v1.1.1">Version 1.1.1</h1>
-
-- Readme Touch Up after revamp - `10/02/2023` (x2)
-
-<h3 id="v1.1.2">Version 1.1.2</h1>
-
-- Readme Touch Up after revamp - `10/02/2023` (x2)
-- Removed changelog clutter in the summary.
-- Links redone
-- Text reformatted
-
-<br>
 <br>
 <br>
 <br>

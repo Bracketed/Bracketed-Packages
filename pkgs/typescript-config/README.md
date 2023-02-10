@@ -23,20 +23,6 @@ It also has some actual updates too, im making sure I keep this up to date since
 - [Usage](#Usage)
 - [Contribution](#Contribution)
 - [ChangeLog](#ChangeLog)
-    - [Version 1.1.1 (Current Release)](#v1.1.1)
-    - [Version 1.1](#v1.1.0)
-    - [Version 1.0.9](#v1.0.9)
-    - [Version 1.0.8](#v1.0.8)
-    - [Version 1.0.7](#v1.0.7)
-    - [Version 1.0.6](#v1.0.6)
-    - [Version 1.0.5](#v1.0.5)
-    - [Version 1.0.4](#v1.0.4)
-    - [Version 1.0.3](#v1.0.3)
-    - [Version 1.0.2](#v1.0.2)
-    - [Version 1.0.1](#v1.0.1)
-    - [Version 1 (Initial Release)](#v1.0.0)
-
-<br>
 
 <h2 id="Installation">Installation</h2>
 
@@ -137,6 +123,13 @@ Please also notify us of errors within our projects as we may not be aware of th
 <h3 id="v1.1.1">Version 1.1.1</h1>
 
 - Readme Touch Up after revamp - `10/02/2023` (x2)
+
+<h3 id="v1.1.2">Version 1.1.2</h1>
+
+- Readme Touch Up after revamp - `10/02/2023` (x2)
+- Removed changelog clutter in the summary.
+- Links redone
+- Text reformatted
 
 <br>
 <br>

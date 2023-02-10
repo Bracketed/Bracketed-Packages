@@ -23,8 +23,8 @@ It also has some actual updates too, im making sure I keep this up to date since
 - [Usage](#Usage)
 - [Contribution](#Contribution)
 - [ChangeLog](#ChangeLog)
-    - [Version 1.1 (Current Release)](#v1.1.0)
-    <!--truncate-->
+    - [Version 1.1.1 (Current Release)](#v1.1.1)
+    - [Version 1.1](#v1.1.0)
     - [Version 1.0.9](#v1.0.9)
     - [Version 1.0.8](#v1.0.8)
     - [Version 1.0.7](#v1.0.7)
@@ -132,7 +132,11 @@ Please also notify us of errors within our projects as we may not be aware of th
 
 <h3 id="v1.1.0">Version 1.1.0</h1>
 
-- Readme Touch Up after revamp - `10/02/2023`
+- Readme Touch Up after revamp - `10/02/2023` (x1)
+
+<h3 id="v1.1.1">Version 1.1.1</h1>
+
+- Readme Touch Up after revamp - `10/02/2023` (x2)
 
 <br>
 <br>

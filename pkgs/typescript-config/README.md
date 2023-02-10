@@ -2,7 +2,7 @@
 # ReadMe
 
 <div align="center">
-    ![Bracketed Logo](https://github.com/Bracketed/BracketedBot/raw/development/src/assets/branding/LogoBanner.png)
+    <img src="https://raw.githubusercontent.com/Bracketed/packages/raw/main/assets/LogoText.png" alt="Bracketed logo" width="400"/>
 </div>
 
 Team Bracketed - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed)
@@ -71,6 +71,11 @@ Please also notify us of errors within our projects as we may not be aware of th
 ## 1.0.4
 
 - Fixed image bug in `README.md`
+
+## 1.0.5
+
+- Fixed image bug in `README.md`
+- Published some logo assets to the repository root.
 
 # Contributors
 

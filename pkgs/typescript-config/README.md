@@ -1,8 +1,9 @@
 
-# Readme
+<h1 align="center" id="top">Readme - @bracketed/typescript-config</h1>
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoText.png" alt="Bracketed logo" width="800"/>
+    ![Discord Banner](https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2)
     Team Bracketed - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed)
 </div>
 
@@ -18,30 +19,43 @@ It also has some actual updates too, im making sure I keep this up to date since
 ## Summary
 
 - [Installation](#Installation)
-    - [Yarn](#Yarn)
-    - [Npm](#Npm)
+    <!--truncate-->
+    - [Yarn](#YarnInstall)
+    - [Npm](#NpmInstall)
 - [Usage](#Usage)
 - [Contribution](#Contribution)
 - [ChangeLog](#ChangeLog)
+    - [Version 1.0.9 (Current Release)](#v1.0.9)
+    <!--truncate-->
+    - [Version 1.0.8](#v1.0.7)
+    - [Version 1.0.7](#v1.0.7)
+    - [Version 1.0.6](#v1.0.6)
+    - [Version 1.0.5](#v1.0.5)
+    - [Version 1.0.4](#v1.0.4)
+    - [Version 1.0.3](#v1.0.3)
+    - [Version 1.0.2](#v1.0.2)
+    - [Version 1.0.1](#v1.0.1)
+    - [Version 1.0.0 (Initial Release)](#v1.0.0)
 
+<br>
 
-<h3 id="Installation" align="center">Installation</h3>
-
+<h2 id="Installation" align="center">Installation</h2>
+<br>
 Install via `yarn` or `npm`:
 
-Yarn:
+<p id="YarnInstall">Yarn:</p>
 
 ```sh
 yarn add @bracketed/typescript-config --dev
 ```
 
-Npm:
+<p id="NpmInstall">Npm:</p>
 
 ```sh
 npm install --save-dev @bracketed/typescript-config
 ```
 
-<h3 id="Usage" align="center">Usage</h3>
+<h2 id="Usage" align="center">Usage</h2>
 
 Add the following to your `tsconfig.json`:
 Acceptable values:
@@ -113,6 +127,10 @@ Please also notify us of errors within our projects as we may not be aware of th
 - Centered Text below logo in `README.md`
 - Resized Logo in `README.md` (x2)
 
+<h3 id="v1.0.9">Version 1.0.9</h1>
+
+- Readme Revamp - `10/02/2023`
+
 <br>
 <br>
 <br>
@@ -122,5 +140,6 @@ Please also notify us of errors within our projects as we may not be aware of th
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoBannerRounded.png" alt="Bracketed logo" width="900" style="border-radius: 25px" />
-    Team Bracketed 2023
+    ![Discord Banner](https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2)
+    **Team Bracketed 2023** - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed) | [Twitter](https://twitter.com/teambracketed) | [Back To The Top]
 </div>

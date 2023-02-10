@@ -110,5 +110,6 @@ Please also notify us of errors within our projects as we may not be aware of th
     <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoBannerRounded.png" alt="Bracketed logo" width="900" style="border-radius: 25px" />
     Team Bracketed - <a href="https://bracketed.co.uk" >Website</a> | <a href="https://bracketed.co.uk/discord" >Discord</a> | <a href="https://github.com/Bracketed" >Github</a> | <a href="https://twitter.com/teambracketed" >Twitter</a> | <a href="#top" >Back To The Top</a>
     <br>
-    <img src="https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2" alt="Discord Banner 2"/>
+    <br>
+    <img src="https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2" alt="Discord Banner" href="https://bracketed.co.uk/discord"/>
 </div>

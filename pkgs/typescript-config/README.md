@@ -62,6 +62,8 @@ Please also notify us of errors within our projects as we may not be aware of th
 - Fixed Minor issues
 - `package.json` has been updated
 - Removed unnecessary dependencies
+- Added `base-config.json`
+- Revamped `README.md`
 
 # Contributors
 

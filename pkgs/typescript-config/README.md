@@ -97,6 +97,7 @@ Please also notify us of errors within our projects as we may not be aware of th
 <li>Links fixed</li>
 <li>Changelog clutter removed</li>
 <li>Changelog renamed to versionlog in scripts to attempt fixes of hyperlinks not working</li>
+<li>Version numbers reset</li>
 </details>
 
 <br>

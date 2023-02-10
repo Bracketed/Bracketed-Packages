@@ -65,6 +65,10 @@ Please also notify us of errors within our projects as we may not be aware of th
 - Added `base-config.json`
 - Revamped `README.md`
 
+## 1.0.3
+
+- Revamped `README.md`
+
 # Contributors
 
 - [ninjaninja140](https://github.com/ninjaninja140)

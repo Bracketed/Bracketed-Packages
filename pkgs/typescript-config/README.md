@@ -1,7 +1,6 @@
 <div align="center" id="top">
     <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoText.png" alt="Bracketed logo" width="800"/>
-    ![Discord Banner](https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2)
-    Team Bracketed - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed)
+    Team Bracketed - <a href="https://bracketed.co.uk" >Website</a> | <a href="https://bracketed.co.uk/discord" >Discord</a> | <a href="https://github.com/Bracketed" >Github</a>
 </div>
 
 <br>
@@ -13,7 +12,7 @@ This has been created to solve some of the issues that I have with the default T
 
 It also has some actual updates too, im making sure I keep this up to date since like, I use it in my projects and you too so I need to make sure it works and is up to date.
 
-( @bracketed/typescript-config By ninjaninja140 )
+( [@bracketed/typescript-config](https://yarnpkg.com/package/@bracketed/typescript-config) By ninjaninja140 )
 
 <h2>Summary (Directory)</h2>
 
@@ -141,9 +140,10 @@ Please also notify us of errors within our projects as we may not be aware of th
 <br>
 <br>
 
-<div align="center">
+<div align="center" style="font-weight: bold">
     <h2>Thanks for downloading my package!</h2>
     <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoBannerRounded.png" alt="Bracketed logo" width="900" style="border-radius: 25px" />
-    ![Discord Banner](https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2)
-    **Team Bracketed 2023** - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed) | [Twitter](https://twitter.com/teambracketed) | [Back To The Top](#top)
+    Team Bracketed - <a href="https://bracketed.co.uk" >Website</a> | <a href="https://bracketed.co.uk/discord" >Discord</a> | <a href="https://github.com/Bracketed" >Github</a> | <a href="https://twitter.com/teambracketed" >Twitter</a> | <a href="#top" >Back To The Top</a>
+    <br>
+    <img src="https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2" alt="Discord Banner 2"/>
 </div>

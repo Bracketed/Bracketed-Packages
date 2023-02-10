@@ -1,13 +1,12 @@
-
-<h1 align="center" id="top">Readme - @bracketed/typescript-config</h1>
-
-<div align="center">
+<div align="center" id="top">
     <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoText.png" alt="Bracketed logo" width="800"/>
     ![Discord Banner](https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2)
     Team Bracketed - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed)
 </div>
 
-## @bracketed/typescript-config
+<br>
+
+<h2 align="center" >@bracketed/typescript-config</h2>
 
 Just a simple TypeScript config that you can use in your projects.
 This has been created to solve some of the issues that I have with the default TypeScript config, and to have a cool little package I can use in my projects and show off to my friends lol.
@@ -39,7 +38,7 @@ It also has some actual updates too, im making sure I keep this up to date since
 
 <br>
 
-<h2 id="Installation" align="center">Installation</h2>
+<h2 id="Installation">Installation</h2>
 <br>
 Install via `yarn` or `npm`:
 
@@ -55,7 +54,7 @@ yarn add @bracketed/typescript-config --dev
 npm install --save-dev @bracketed/typescript-config
 ```
 
-<h2 id="Usage" align="center">Usage</h2>
+<h2 id="Usage">Usage</h2>
 
 Add the following to your `tsconfig.json`:
 Acceptable values:
@@ -136,10 +135,10 @@ Please also notify us of errors within our projects as we may not be aware of th
 <br>
 <br>
 <br>
-<br>
 
 <div align="center">
+    <h2>Thanks for downloading my package!</h2>
     <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoBannerRounded.png" alt="Bracketed logo" width="900" style="border-radius: 25px" />
     ![Discord Banner](https://discordapp.com/api/guilds/1041758035355369542/widget.png?style=banner2)
-    **Team Bracketed 2023** - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed) | [Twitter](https://twitter.com/teambracketed) | [Back To The Top]
+    **Team Bracketed 2023** - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed) | [Twitter](https://twitter.com/teambracketed) | [Back To The Top](#top)
 </div>

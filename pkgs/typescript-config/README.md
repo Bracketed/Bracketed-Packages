@@ -1,10 +1,9 @@
-<div align="center">
 
 # ReadMe
 
-<a href="https://bracketed.co.uk">
-  <img style="border-radius: 25px;" src="https://github.com/Bracketed/BracketedBot/blob/development/src/assets/branding/LogoBanner.png" alt="Bracketed Logo">
-</a>
+<div align="center">
+    ![Bracketed Logo](https://github.com/Bracketed/BracketedBot/raw/development/src/assets/branding/LogoBanner.png)
+</div>
 
 Team Bracketed - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed)
 

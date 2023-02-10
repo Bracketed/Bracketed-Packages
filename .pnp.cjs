@@ -49,7 +49,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./pkgs/typescript-config/",\
           "packageDependencies": [\
             ["@bracketed/typescript-config", "workspace:pkgs/typescript-config"],\
-            ["tslib", "npm:2.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=d73830"]\
           ],\
           "linkType": "SOFT"\

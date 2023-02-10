@@ -1,14 +1,17 @@
 {
 	"name": "@bracketed/typescript-config",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Just some extensions for tsconfig.",
 	"author": "@bracketed",
 	"main": "tsconfig.json",
-	"typedocMain": "tests/index.ts",
 	"exports": {
 		".": {
 			"import": "./tsconfig.json",
 			"require": "./tsconfig.json"
+		},
+		"./base-config": {
+			"import": "./base-config.json",
+			"require": "./base-config.json"
 		},
 		"./without-decorators": {
 			"import": "./without-decorators.json",
@@ -24,18 +27,14 @@
 		}
 	},
 	"sideEffects": false,
-	"homepage": "https://github.com/bracketed/tree/main/packages/tree/main/typescript-config",
-	"scripts": {
-		"test": "jest",
-		"build": "yarn lint && tsc -b tests"
-	},
+	"homepage": "https://bracketed.co.uk",
 	"dependencies": {
-		"tslib": "^2.3.1",
 		"typescript": "^4.6.3"
 	},
 	"files": [
 		"tsconfig.json",
 		"extra-strict*.json",
+		"base-config.json",
 		"*decorators*.json"
 	],
 	"engines": {
@@ -54,10 +53,10 @@
 		"bracketed",
 		"typescript",
 		"ts",
-		"yarn"
+		"yarn",
+		"typescript config"
 	],
 	"publishConfig": {
 		"access": "public"
-	},
-	"gitHead": "bf5ac56e547bfdbfac38e020882004e0f136546e"
+	}
 }

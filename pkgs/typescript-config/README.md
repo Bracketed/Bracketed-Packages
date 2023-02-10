@@ -2,7 +2,7 @@
 # ReadMe
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoText.png" alt="Bracketed logo" width="400"/>
+    <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoText.png" alt="Bracketed logo" width="800"/>
 </div>
 
 Team Bracketed - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed)
@@ -82,6 +82,20 @@ Please also notify us of errors within our projects as we may not be aware of th
 - Christ this is annoying
 - Fixed image bug in `README.md` (x3)
 
+## 1.0.7
+
+- I hope this is the last one of these darn fixes
+- Fixed image bug in `README.md` (x4)
+- Resized logo in `README.md`
+- Added end of file logo to `README.md`
+
+</br>
+</br>
+
 # Contributors
 
 - [ninjaninja140](https://github.com/ninjaninja140)
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoBanner.png" alt="Bracketed logo" width="500" style="border-radius: 25px;" />
+</div>

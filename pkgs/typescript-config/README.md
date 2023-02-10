@@ -16,7 +16,7 @@ It also has some actual updates too, im making sure I keep this up to date since
 
 ( @bracketed/typescript-config By ninjaninja140 )
 
-## Summary
+<h1>Summary (Directory)</h2>
 
 - [Installation](#Installation)
     <!--truncate-->

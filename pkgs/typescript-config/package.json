@@ -1,6 +1,6 @@
 {
 	"name": "@bracketed/typescript-config",
-	"version": "1.3",
+	"version": "0.1.3",
 	"description": "Just some extensions for tsconfig.",
 	"author": "@bracketed",
 	"main": "tsconfig.json",

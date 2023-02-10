@@ -4,6 +4,9 @@
 	"description": "Just some extensions for tsconfig.",
 	"author": "@bracketed",
 	"main": "tsconfig.json",
+	"contributors": [
+		{"name": "ninjaninja140", "url": "https://github.com/ninjaninja140"}
+	],
 	"exports": {
 		".": {
 			"import": "./tsconfig.json",
@@ -43,11 +46,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bracketed/packages.git",
+		"url": "git+https://github.com/bracketed/Bracketed-Packages.git",
 		"directory": "packages/ts-config"
 	},
 	"bugs": {
-		"url": "https://github.com/bracketed/packages/issues"
+		"url": "https://github.com/bracketed/Bracketed-Packages/issues"
 	},
 	"keywords": [
 		"bracketed",

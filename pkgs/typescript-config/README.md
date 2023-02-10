@@ -2,7 +2,7 @@
 # ReadMe
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Bracketed/packages/main/assets/LogoText.png" alt="Bracketed logo" width="400"/>
+    <img src="https://raw.githubusercontent.com/Bracketed/Bracketed-Packages/main/assets/LogoText.png" alt="Bracketed logo" width="400"/>
 </div>
 
 Team Bracketed - [Website](https://bracketed.co.uk) | [Discord](https://bracketed.co.uk/discord) | [GitHub](https://github.com/Bracketed)

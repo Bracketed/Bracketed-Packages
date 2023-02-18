@@ -48,6 +48,7 @@ Acceptable values:
 - `base-config`
 - `extra-strict`
 - `extra-strict-without-decorators`
+- `without-decorators`
 
 ```json
 {
@@ -63,41 +64,26 @@ Please also notify us of errors within our projects as we may not be aware of th
 <h1 id="versionlog">ChangeLog & Versions</h1>
 
 <details>
-<summary style="font-weight: bold">Version 1.0</summary>
+<summary style="font-weight: bold">Version 1</summary>
 <li>Initial release</li>
 <li>Package published to npm</li>
 <li>Available by using npm install --save-dev @bracketed/typescript-config</li>
 </details>
 
 <details>
-<summary style="font-weight: bold">Version 1.1</summary>
+<summary style="font-weight: bold">Version 2</summary>
 <li>Fixed Minor issues (x1)</li>
 <li>Package now published to yarn</li>
 <li>Available by using yarn add @bracketed/typescript-config --dev</li>
 </details>
 
 <details>
-<summary style="font-weight: bold">Version 1.2</summary>
+<summary style="font-weight: bold">Version 3</summary>
 <li>Fixed Minor issues (x2)</li>
 <li>package.json file updated with fixed details</li>
 <li>Removed unnecessary dependencies</li>
 <li>Added base config for beginners</li>
-<li>Fixed image bugs on the readme</li>
-<li>Published new images</li>
-<li>Applied new logos and added links at the bottom</li>
-<li>Added a summary to the readme</li>
-<li>Centered some text</li>
-</details>
-
-<details>
-<summary style="font-weight: bold">Version 1.3</summary>
-<li>Major reformatting</li>
-<li>Major changes to readme</li>
-<li>Readme revamped completely</li>
-<li>Links fixed</li>
-<li>Changelog clutter removed</li>
-<li>Changelog renamed to versionlog in scripts to attempt fixes of hyperlinks not working</li>
-<li>Version numbers reset</li>
+<li>Added without-decorators</li>
 </details>
 
 <br>

@@ -1,32 +1,35 @@
 {
 	"name": "@bracketed/typescript-config",
-	"version": "4.2.0",
+	"version": "4.3.0",
 	"description": "Typescript Config files to make coding easier!",
 	"author": "@bracketed",
-	"main": "./src/tsconfig.json",
+	"main": "./tsconfig.json",
 	"contributors": [
-		{"name": "ninjaninja140", "url": "https://github.com/ninjaninja140"}
+		{
+			"name": "ninjaninja140",
+			"url": "https://github.com/ninjaninja140"
+		}
 	],
 	"exports": {
 		".": {
-			"import": "./src/tsconfig.json",
+			"import": "./tsconfig.json",
 			"require": "./tsconfig.json"
 		},
 		"./base-config": {
-			"import": "./src/base-config.json",
-			"require": "./src/base-config.json"
+			"import": "./base-config.json",
+			"require": "./base-config.json"
 		},
 		"./without-decorators": {
-			"import": "./src/without-decorators.json",
-			"require": "./src/without-decorators.json"
+			"import": "./without-decorators.json",
+			"require": "./without-decorators.json"
 		},
 		"./extra-strict": {
-			"import": "./src/extra-strict.json",
-			"require": "./src/extra-strict.json"
+			"import": "./extra-strict.json",
+			"require": "./extra-strict.json"
 		},
 		"./extra-strict-without-decorators": {
-			"import": "./src/extra-strict-without-decorators.json",
-			"require": "./src/extra-strict-without-decorators.json"
+			"import": "./extra-strict-without-decorators.json",
+			"require": "./extra-strict-without-decorators.json"
 		}
 	},
 	"sideEffects": false,

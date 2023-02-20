@@ -47,8 +47,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@bracketed/typescript-config": "^4.3.0",
-    "typescript": "^4.9.5",
     "undici": "^5.20.0"
+  },
+  "devDependencies": {
+    "@bracketed/typescript-config": "^4.3.0",
+    "typescript": "^4.9.5"
   }
 }

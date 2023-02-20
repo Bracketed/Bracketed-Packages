@@ -1,5 +1,4 @@
 import Undici from 'undici';
-import { StatusCodes } from 'src/StatusCodes';
 
 interface Options {
 	hostname: string;
@@ -39,44 +38,49 @@ interface Options {
 		| 'UNKNOWN';
 	headers: {
 		'User-Agent': string;
-		accept:
-			| 'text/html'
-			| 'text/plain'
-			| 'text/css'
-			| 'text/javascript'
-			| 'application/javascript'
-			| 'application/json'
-			| 'application/x-www-form-urlencoded'
-			| 'multipart/form-data'
-			| 'image/jpeg'
-			| 'image/png'
-			| 'image/gif'
-			| 'image/webp'
-			| 'image/svg+xml'
-			| 'image/x-icon'
-			| 'image/vnd.microsoft.icon'
-			| 'font/woff'
-			| 'font/woff2'
-			| 'font/ttf'
-			| 'font/eot'
-			| 'font/opentyp';
+		'Content-Type'?: string;
 	};
 }
 
-interface UserInterface {
+export interface RblxPlayer {
+	description: string;
+	created: string;
+	isBanned: false | true;
+	externalAppDisplayName: string;
+	hasVerifiedBadge: false | true;
+	id: number;
+	name: string;
+	DisplayName: string;
+}
+
+export interface UserInterface {
 	usernames: string[];
 	excludeBannedUsers: boolean;
 }
 
+interface FetchedUser {
+	previousUsernames: string[];
+	hasVerifiedBadge: false | true;
+	id: number;
+	name: string;
+	displayName: string;
+}
+
+interface FetchedUsers {
+	prepreviousPageCursor: string | null;
+	nextPageCursor: string | null;
+	data: FetchedUser[];
+}
+
 class Users {
-	static async fetch(userid: string) {
+	static async fetch(userid: string | number) {
 		const options: Options = {
 			hostname: 'users.roblox.com',
-			path: `/v1/users/${userid}`,
+			path: `/v1/users/${userid.toString()}`,
 			method: 'GET',
 			headers: {
 				'User-Agent': 'request',
-				accept: 'application/json',
+				'Content-Type': 'application/json',
 			},
 		};
 
@@ -88,10 +92,10 @@ class Users {
 		});
 
 		if (statusCode === 200) {
-			const data = await body.json();
+			const data: RblxPlayer = await body.json();
 			return data;
 		} else {
-			throw StatusCodes.Unprocessable;
+			return console.error(statusCode, body);
 		}
 	}
 
@@ -102,7 +106,7 @@ class Users {
 			method: 'GET',
 			headers: {
 				'User-Agent': 'request',
-				accept: 'application/json',
+				'Content-Type': 'application/json',
 			},
 		};
 
@@ -114,10 +118,11 @@ class Users {
 		});
 
 		if (statusCode === 200) {
-			const data = await body.json();
-			return data;
+			const data: FetchedUsers = await body.json();
+			const FetchedData: FetchedUser[] = data.data;
+			return FetchedData;
 		} else {
-			throw StatusCodes.Unprocessable;
+			return console.error(statusCode, body);
 		}
 	}
 
@@ -128,7 +133,7 @@ class Users {
 			method: 'POST',
 			headers: {
 				'User-Agent': 'request',
-				accept: 'application/json',
+				'Content-Type': 'application/json',
 			},
 		};
 
@@ -141,10 +146,11 @@ class Users {
 		});
 
 		if (statusCode === 200) {
-			const data = await body.json();
-			return data;
+			const data: FetchedUsers = await body.json();
+			const FetchedData: FetchedUser[] = data.data;
+			return FetchedData;
 		} else {
-			return StatusCodes.Unprocessable;
+			return console.error(statusCode, body);
 		}
 	}
 }

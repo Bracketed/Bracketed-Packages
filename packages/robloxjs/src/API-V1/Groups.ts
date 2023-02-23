@@ -1,4 +1,4 @@
-import Undici from 'undici';
+/*import Undici from 'undici';
 
 interface GroupOwnerPlayer {
 	buildersClubMembershipType: number;
@@ -36,12 +36,11 @@ interface Group {
 	hasVerifiedBadge: true | false;
 }
 
-class GroupsV1 {
-	static fetch = {};
-}
+class GroupsV1 {}
 
 class GroupsV2 {
 	static fetch = {};
 }
 
 export { GroupsV1, GroupsV2 };
+*/

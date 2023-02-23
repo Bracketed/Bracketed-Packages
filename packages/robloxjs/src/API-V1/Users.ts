@@ -237,9 +237,4 @@ class UsersV1 {
 	};
 }
 
-class UsersV2 {
-	static Info =
-		'The Users V2 API does not exist at this current point in time. (21.02/2023)';
-}
-
-export { UsersV1, UsersV2 };
+export { UsersV1 };

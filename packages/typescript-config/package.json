@@ -1,9 +1,13 @@
 {
 	"name": "@bracketed/typescript-config",
-	"version": "4.3.0",
+	"version": "4.4.0",
 	"description": "Typescript Config files to make coding easier!",
 	"author": "@bracketed",
 	"main": "./tsconfig.json",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"typescript": "^4.4.3"
+	},
 	"contributors": [
 		{
 			"name": "ninjaninja140",

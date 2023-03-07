@@ -7,12 +7,21 @@
 
 <h2 align="center" >@bracketed/typescript-config</h2>
 
-Just a simple TypeScript config that you can use in your projects.
-This has been created to solve some of the issues that I have with the default TypeScript config, and to have a cool little package I can use in my projects and show off to my friends lol.
+A TypeScript configuration package that addresses common issues with the default TypeScript configuration. Our package is simple to use and is designed to enhance the functionality of your projects.
 
-It also has some actual updates too, im making sure I keep this up to date since like, I use it in my projects and you too so I need to make sure it works and is up to date.
+Additionally, we have implemented ongoing updates to ensure the package remains current and reliable for our own usage as well as yours.
 
 ( [@bracketed/typescript-config](https://yarnpkg.com/package/@bracketed/typescript-config) By ninjaninja140 )
+
+<h2>What is this?</h2>
+- A TypeScript configuration package that is built to recude the need of having to configure your own tsconfig.json file.
+The tsconfig extension is short for "TypeScript configuration file." It's a file that developers create to tell the TypeScript compiler how to compile their code. Think of it like a set of instructions for the compiler to follow.
+
+When you create a tsconfig file, you can specify things like which files to compile, where to put the compiled code, and which version of TypeScript to use. You can also configure advanced settings like how to handle certain types of errors or warnings.
+
+Having a tsconfig file is important because it helps ensure consistency across a project. By having all developers use the same file, everyone will be compiling their code in the same way, which can reduce bugs and make it easier to maintain the code over time.
+
+It's a very essential tool for any TypeScript developer's project.
 
 <h2>Summary (Directory)</h2>
 

@@ -15,7 +15,6 @@ node_modules/
 .yarn/build-state.yml
 
 # Build Artifacts
-dist/
 *.tsbuildinfo
 
 # Ignore package locks
@@ -102,7 +101,6 @@ jspm_packages/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/

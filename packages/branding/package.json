@@ -1,0 +1,38 @@
+{
+	"name": "@bracketed/branding",
+	"version": "2.0.0",
+	"packageManager": "yarn@3.5.1",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"author": "@bracketed",
+	"description": "Branding module for any Bracketed Productions.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bracketed/Bracketed-Packages.git",
+		"directory": "packages/ts-config"
+	},
+	"bugs": {
+		"url": "https://github.com/bracketed/Bracketed-Packages/issues"
+	},
+	"sideEffects": false,
+	"homepage": "https://bracketed.co.uk",
+	"keywords": [
+		"bracketed",
+		"typescript",
+		"ts",
+		"yarn",
+		"branding"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@bracketed/typescript-config": "^4.4.0",
+		"@types/node": "^20.1.0",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"axios": "^1.4.0"
+	}
+}

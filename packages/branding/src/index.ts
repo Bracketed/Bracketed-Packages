@@ -152,9 +152,9 @@ enum ScalableVectorGraphicLogos {
 	TeamBracketedVariantTextLogo = `${Directories.SVGDirectory}/TeamBracketedLogoLong.svg?raw=true`,
 	TeamBracketedVariantMiniTextLogo = `${Directories.SVGDirectory}/BracketedTextLogoMini.svg`,
 
-	BracketedBotVariantSmall = `${Directories.SVGDirectory}/BracketedLogo-BETA-BG-SMALL.svg?raw=true`,
-	BracketedBotVariantLarge = `${Directories.SVGDirectory}/BracketedLogo-BETA-BG-LARGE.svg?raw=true`,
-	BracketedBotVariantLogo = `${Directories.SVGDirectory}/BracketedLogo-BETA.svg?raw=true`,
+	BracketedBotVariantSmall = `${Directories.SVGDirectory}/BracketedLogo-MAIN-BG-SMALL.svg?raw=true`,
+	BracketedBotVariantLarge = `${Directories.SVGDirectory}/BracketedLogo-MAIN-BG-LARGE.svg?raw=true`,
+	BracketedBotVariantLogo = `${Directories.SVGDirectory}/BracketedLogo-MAIN.svg?raw=true`,
 	BracketedBotVariantTextLogo = `${Directories.SVGDirectory}/BracketedTextLogoLong.svg?raw=true`,
 }
 
